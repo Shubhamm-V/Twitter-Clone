@@ -1,0 +1,76 @@
+.login{
+    border: 2px solid var(--twitter-background);
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.twitterIcon{
+    color: var(--twitter-color) !important;
+    font-size:50px !important;
+}
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+
+.login h2 {
+    padding: 1rem;
+}
+
+.inputName{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.userNameInput{
+    width: 240px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(236, 245, 242);
+    border: 1px solid rgb(190, 198, 201);
+    font-size: 1rem;
+}
+
+.imageInputName{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.loginButton{
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    height: 40px !important;
+    width: 90% !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    margin: 10px !important;
+    margin-top: 40px !important;
+}
+
+.loginButton:hover{
+    background-color: rgb(17, 153, 181) !important;
+}
+
+.invalidInput{
+    color: red;
+    font-size: 12px;
+    margin: 0;
+}
+
+@media (max-width: 450px) {
+    .login{
+        max-width: 320px;
+    }
+}
